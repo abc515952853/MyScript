@@ -3,7 +3,7 @@ import  json
 import uuid
 import time
 
-session = 'Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjU4YjVkNTExYTRlYzViNjU4YjVjZWE1MzU4MDMzMDA1IiwidHlwIjoiSldUIn0.eyJuYmYiOjE1NDUwMTU4NjUsImV4cCI6MTU0NTEwMjI2NSwiaXNzIjoibnVsbCIsImF1ZCI6WyJudWxsL3Jlc291cmNlcyIsImNybSIsImRpbmd0YWxrIiwiaHIiXSwiY2xpZW50X2lkIjoiZGluZ3RhbGsiLCJzdWIiOiJiZGYyMWMyYi1jNjk1LTQ2ZWUtYjZlOS1lMTgzYzhkNzM4ZDAiLCJhdXRoX3RpbWUiOjE1NDUwMTU4NjUsImlkcCI6ImxvY2FsIiwibmFtZSI6IuayiOaWjCIsImRpbmd0YWxrX3VzZXJpZCI6ImE4OGI5MjFhZjY2MDQzZDE4MGE5ZmVhMTRjMjE1YTg1Iiwic2NvcGUiOlsib3BlbmlkIiwicHJvZmlsZSIsImNybSIsImRpbmd0YWxrIiwiaHIiXSwiYW1yIjpbImRpbmd0YWxrX2NvZGUiXX0.aEnHSmQm9U0zdmpSuN7evpMmyEI4gYR41TOI7xS7N8Bqdd36-huIskImr9s_UeZypVxHHBDKvwQs5LrD-wnbDqbV0HpAFcM4yIkcKbL_K5Fnz2_xihe5JOpDTPkgY_xTZ7cWE6H5ndZUge_LiCVBS67wdWkP2UMrIQx7C8QQCLD_MLXYLKLdBh49inHweRwJrHJnoy7n8DvSHrqbpF6ujNTrCLmnzOCw70F7EJnDMRP0vWJXvRndrFKgS_KxMojDlkfW6PIARDi9jFsqA7h04ImIOHJ5Z4gLye2ujGd5bZddx_14uoYCReW79pHkVFZ7C7Owb_0IFHFRdqqasZWYrw'
+session = 'Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjYyODhhM2FhNDgyNTVhZjk4MzA4N2IwMDlmNjJmOWRhIiwidHlwIjoiSldUIn0.eyJuYmYiOjE1NDUzOTMyMDEsImV4cCI6MTU0NTQ3OTYwMSwiaXNzIjoibnVsbCIsImF1ZCI6WyJudWxsL3Jlc291cmNlcyIsImNybSIsImRpbmd0YWxrIiwiaHIiXSwiY2xpZW50X2lkIjoiZGluZ3RhbGsiLCJzdWIiOiJhMWMyZTJlYS1kOWI0LTRjMTEtYjdhZi1kMDg4YThlNDFmM2MiLCJhdXRoX3RpbWUiOjE1NDUzOTMyMDEsImlkcCI6ImxvY2FsIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IuayiOaWjOWwj-Wwj-WPtyIsIm5hbWUiOiLmsojmlozlsI_lsI_lj7ciLCJkaW5ndGFsa191c2VyaWQiOiI0ODY2NjU4ZjBlZDU0NWJiYjcwNmFiOTZmNzRiYWQwOCIsImRlcGFydG1lbnRzIjoiMjIsMjMiLCJhbGxkZXBhcnRtZW50cyI6IjIyLDI0LDI1LDIzLDI2LDI3Iiwic2NvcGUiOlsib3BlbmlkIiwicHJvZmlsZSIsImNybSIsImRpbmd0YWxrIiwiaHIiXSwiYW1yIjpbImRpbmd0YWxrX2NvZGUiXX0.FkWMCVklZMfNjoepRE0uXPvh3pwzHOvjD9YYJWwanR4nq4yjb0Z7dXA6X0UY5Cgd84GWc-Gcr8D5ZbleiFwdq1UEmQLcS-HAFlbIeWureHfcBVCPq1onZZJKBWnHMKBb2-hl3I18O1BF3I_VpTSdHqKvDVbyjMeUEdovMgxCg7G_y1gmlXBCdYZOTNMIq6dT-v6zROlfQVZ7SWgV4WssetCM1Y0VIWtXkt3K9Y6Pvotg8SDV62HKsjAqWA1QngoZnWyyzHBEzNCdyITi5yTI-xT5lBzmYuMjj3y7OhUXW6OZDAlKJDRK1W6-M1jy8hjLlICltU21iVNjFOPeg6GShA'
 requestid = str(uuid.uuid1())
 url = 'http://api.syzb.qianjifang.com.cn/'
 
@@ -18,26 +18,24 @@ url = 'http://api.syzb.qianjifang.com.cn/'
 # print(r.status_code)
 
 
-# i=1
-# while i <= 5:
-#   time.sleep(1)
-#   requestid = str(uuid.uuid1())
-#   apiurl = url + 'api/Customer/create'
-#   headers = {'Content-Type': "application/json",'Authorization':session,"x-requestid":requestid}
-#   payload ={
-#     "name": "小小号科技有限公司"+str(i),
-#     "shortName": "小小号科技"+str(i),
-#     "city": "浙江省",
-#     "state": "杭州市",
-#     "customerProspectId": 3,
-#     "customerTypeId": 2,
-#     "labelIds":[9],
-#     "customerKind":2,
-#     "synopsis":"111"
-#   }
-#   r = requests.post(url=apiurl, headers = headers,data = json.dumps(payload))
-#   print(r.status_code)
-#   i=i+1
+i=1
+while i <= 1:
+  time.sleep(1)
+  requestid = str(uuid.uuid1())
+  apiurl = url + 'api/Customer/create'
+  headers = {'Content-Type': "application/json",'Authorization':session,"x-requestid":requestid}
+  payload ={
+    "name": "小小号有限公司"+str(i),
+    "shortName": "小小科技"+str(i),
+    "city": "浙江省",
+    "state": "杭州市",
+    "departmentId":27,
+    "labelIds":[41],
+    "customerKind":2,
+  }
+  r = requests.post(url=apiurl, headers = headers,data = json.dumps(payload))
+  print(r.status_code)
+  i=i+1
 
 
 # apiurl = url + 'api/Customer/AddSchedule'
@@ -54,30 +52,30 @@ url = 'http://api.syzb.qianjifang.com.cn/'
 
 
 
-#创建项目
-i=1
-while i <= 5:
-  time.sleep(1)
-  apiurl = url + 'api/Project/create'
-  requestid = str(uuid.uuid1())
-  headers = {'Content-Type': "application/json",'Authorization':session,"x-requestid":requestid}
-  payload ={
-      "projectName": "阿里投资项目"+str(i),
-      "customerId": "38AF8FE6-18AA-4289-86A8-63D5D9025767",
-      "status": "63",
-      "departmentId": "17",
-      "projectType": "1",
-      "investmentProject": {
-      "amount": 100,
-      "estimate": 100,
-      "conditions": "11",
-      "commitment": "22",
-      "newSituation": "33"
-    }
-  }
-  r = requests.post(url=apiurl, headers = headers,data = json.dumps(payload))
-  print(r.status_code)
-  i=i+1
+# #创建项目
+# i=1
+# while i <= 1:
+#   time.sleep(1)
+#   apiurl = url + 'api/Project/create'
+#   requestid = str(uuid.uuid1())
+#   headers = {'Content-Type': "application/json",'Authorization':session,"x-requestid":requestid}
+#   payload ={
+#       "projectName": "撒的撒"+str(i),
+#       "customerId": "38AF8FE6-18AA-4289-86A8-63D5D9025767",
+#       "status": "63",
+#       "departmentId": "17",
+#       "projectType": "1",
+#       "investmentProject": {
+#       "amount": 100,
+#       "estimate": 100,
+#       "conditions": "11",
+#       "commitment": "22",
+#       "newSituation": "33"
+#     }
+#   }
+#   r = requests.post(url=apiurl, headers = headers,data = json.dumps(payload))
+#   print(r.status_code)
+#   i=i+1
 
 
 
