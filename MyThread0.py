@@ -110,7 +110,7 @@ if __name__=='__main__':
     hour = usetime.split(':').pop(0)
     minute = usetime.split(':').pop(1)
     second = usetime.split(':').pop(2)
-    totaltime = float(hour)*60*60 + float(minute)*60 + float(second) #计算总的思考时间+请求时间
+    totaltime = float(hour)*60*60 + float(minute)*60 + float(second) #计算总的时间+请求时间
     print ("并发数:%s" %nub) #打印并发数
     print ("总共消耗的时间 %s s" %(totaltime-float(nub*ThinkTime))) #打印总共消耗的时间
     print ("错误请求数 %s" %myreq.error.count("0")) #打印错误请求数
