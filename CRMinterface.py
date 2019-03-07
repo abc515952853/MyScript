@@ -3,7 +3,7 @@ import  json
 import uuid
 import time
 
-session = 'Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjYyODhhM2FhNDgyNTVhZjk4MzA4N2IwMDlmNjJmOWRhIiwidHlwIjoiSldUIn0.eyJuYmYiOjE1NDUzOTMyMDEsImV4cCI6MTU0NTQ3OTYwMSwiaXNzIjoibnVsbCIsImF1ZCI6WyJudWxsL3Jlc291cmNlcyIsImNybSIsImRpbmd0YWxrIiwiaHIiXSwiY2xpZW50X2lkIjoiZGluZ3RhbGsiLCJzdWIiOiJhMWMyZTJlYS1kOWI0LTRjMTEtYjdhZi1kMDg4YThlNDFmM2MiLCJhdXRoX3RpbWUiOjE1NDUzOTMyMDEsImlkcCI6ImxvY2FsIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IuayiOaWjOWwj-Wwj-WPtyIsIm5hbWUiOiLmsojmlozlsI_lsI_lj7ciLCJkaW5ndGFsa191c2VyaWQiOiI0ODY2NjU4ZjBlZDU0NWJiYjcwNmFiOTZmNzRiYWQwOCIsImRlcGFydG1lbnRzIjoiMjIsMjMiLCJhbGxkZXBhcnRtZW50cyI6IjIyLDI0LDI1LDIzLDI2LDI3Iiwic2NvcGUiOlsib3BlbmlkIiwicHJvZmlsZSIsImNybSIsImRpbmd0YWxrIiwiaHIiXSwiYW1yIjpbImRpbmd0YWxrX2NvZGUiXX0.FkWMCVklZMfNjoepRE0uXPvh3pwzHOvjD9YYJWwanR4nq4yjb0Z7dXA6X0UY5Cgd84GWc-Gcr8D5ZbleiFwdq1UEmQLcS-HAFlbIeWureHfcBVCPq1onZZJKBWnHMKBb2-hl3I18O1BF3I_VpTSdHqKvDVbyjMeUEdovMgxCg7G_y1gmlXBCdYZOTNMIq6dT-v6zROlfQVZ7SWgV4WssetCM1Y0VIWtXkt3K9Y6Pvotg8SDV62HKsjAqWA1QngoZnWyyzHBEzNCdyITi5yTI-xT5lBzmYuMjj3y7OhUXW6OZDAlKJDRK1W6-M1jy8hjLlICltU21iVNjFOPeg6GShA'
+session = 'Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6Ijg1MjAxNmY3ZmYzOTJiYTMwNmE4NjNjZjAyMzFkNWRkIiwidHlwIjoiSldUIn0.eyJuYmYiOjE1NDc3MTk3MDksImV4cCI6MTU0NzgwNjEwOSwiaXNzIjoibnVsbCIsImF1ZCI6WyJudWxsL3Jlc291cmNlcyIsImNybSIsImRpbmd0YWxrIiwiZmlsZSIsImhyIiwicHJvY2Vzc2VzIl0sImNsaWVudF9pZCI6ImRpbmd0YWxrIiwic3ViIjoiYmRmMjFjMmItYzY5NS00NmVlLWI2ZTktZTE4M2M4ZDczOGQwIiwiYXV0aF90aW1lIjoxNTQ3NzE5NzA5LCJpZHAiOiJsb2NhbCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiLmsojmlowiLCJuYW1lIjoi5rKI5paMIiwiZGluZ3RhbGtfdXNlcmlkIjoiYTg4YjkyMWFmNjYwNDNkMTgwYTlmZWExNGMyMTVhODUiLCJkZXBhcnRtZW50cyI6IjM1IiwiYWxsZGVwYXJ0bWVudHMiOiIzNSIsImlzU2VuaW9yIjoiVHJ1ZSIsInNjb3BlIjpbIm9wZW5pZCIsInByb2ZpbGUiLCJjcm0iLCJkaW5ndGFsayIsImZpbGUiLCJociIsInByb2Nlc3NlcyJdLCJhbXIiOlsiZGluZ3RhbGtfY29kZSJdfQ.TmXfVAtwvcss96qqBipHOO1pen2Nv58rt7FB_VXelGRs5P31EEeiaV3zYrik2EjY6Wp9cJw1qFQ8Ao6x2dXBTi3KKjqkfwLC5DUrsm-VaUW6U3EmSXhmEvYh9TBD8hMyRThuO6D_H2djdQTZqI0svu0ZpI4wuJOzqPKdQI7GQ7zd7dY7UzG3UT8YtZus-p_fB4hJ3J-xP_aLZUCU34K35p6s9yWS31V8OF7rSbDynOQPe_tpaONnGlLS_IToBV6DXqkQ9oBh_gz0sMGYmbJPHgufSiSK1965rYaKnkErnwC05nL-3r0V9xEA1PURrMkxdNqQTcqLVyoP2cxMa67j1g'
 requestid = str(uuid.uuid1())
 url = 'http://api.syzb.qianjifang.com.cn/'
 
@@ -19,17 +19,17 @@ url = 'http://api.syzb.qianjifang.com.cn/'
 
 
 i=1
-while i <= 1:
+while i <= 5:
   time.sleep(1)
   requestid = str(uuid.uuid1())
   apiurl = url + 'api/Customer/create'
   headers = {'Content-Type': "application/json",'Authorization':session,"x-requestid":requestid}
   payload ={
-    "name": "小小号有限公司"+str(i),
-    "shortName": "小小科技"+str(i),
+    "name": "保理二组测试客户"+str(i),
+    "shortName": "测试客户"+str(i),
     "city": "浙江省",
     "state": "杭州市",
-    "departmentId":27,
+    "departmentId":16,
     "labelIds":[41],
     "customerKind":2,
   }

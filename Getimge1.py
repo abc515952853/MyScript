@@ -23,5 +23,5 @@ def upPic(pic_list):
 
 if __name__ == "__main__":
     up_pic=chosePic(random.randint(1,3))
-    # path=upPic(up_pic)
+    path=upPic(up_pic)
     print(up_pic)
