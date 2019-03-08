@@ -1,0 +1,115 @@
+{
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "好转类",
+        "Childs": [
+          {
+            "Id": 1,
+            "Name": "胃口变好"
+          },
+          {
+            "Id": 2,
+            "lastName": "精神变好"
+          },
+          {
+            "Id": 3,
+            "lastName": "手脚温热"
+          },
+          {
+            "Id": 4,
+            "lastName": "气色变好"
+          },
+          {
+            "Id": 5,
+            "lastName": "大便通畅"
+          },
+          {
+            "Id": 6,
+            "lastName": "呕吐减轻"
+          },
+          {
+            "Id": 7,
+            "lastName": "疼痛减轻"
+          },
+          {
+            "Id": 8,
+            "lastName": "指标正常",
+            "Group": "zhibiao"
+          },
+          {
+            "Id": 9,
+            "lastName": "指标好转",
+            "Group": "zhibiao"
+          },
+          {
+            "Id": 10,
+            "lastName": "指标稳定",
+            "Group": "zhibiao"
+          },
+          {
+            "Id": 11,
+            "lastName": "病灶稳定",
+            "Group": "bingzao"
+          },
+          {
+            "Id": 12,
+            "lastName": "病灶缩小",
+            "Group": "bingzao"
+          },
+          {
+            "Id": 13,
+            "lastName": "病灶消失",
+            "Group": "bingzao"
+          },
+          {
+            "Id": 14,
+            "lastName": "病灶增大",
+            "Group": "bingzao"
+          }
+        ]
+      },
+      {
+        "Id": 2,
+        "Name": "反馈情况",
+        "Childs": [
+          {
+            "Id": 15,
+            "Name": "胃痛"
+          },
+          {
+            "Id": 16,
+            "lastName": "疹子"
+          },
+          {
+            "Id": 17,
+            "Name": "拉肚子"
+          },
+          {
+            "Id": 18,
+            "lastName": "便秘"
+          },
+          {
+            "Id": 19,
+            "Name": "发痒"
+          },
+          {
+            "Id": 20,
+            "lastName": "疼痛"
+          },
+          {
+            "Id": 21,
+            "Name": "其他"
+          },
+          {
+            "Id": 22,
+            "lastName": "疼痛加重"
+          },
+          {
+            "Id": 23,
+            "Name": "指标上升"
+          }
+        ]
+      }
+    ]
+  }
